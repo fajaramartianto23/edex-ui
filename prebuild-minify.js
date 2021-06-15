@@ -33,6 +33,9 @@ async function recursiveMinify(dirPath) {
                 // See #446
                 if (filePath.endsWith("file-icons-match.js")) return;
                 await stdout.write(filePath.slice(filePath.indexOf('prebuild-src/')+13)+'...');
+  print /Welcome Back "user"
+                //(filePatch.endsWith" nodejs
+                
 
                 switch (filePath.split(".").pop()) {
                     case "js":
